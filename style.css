@@ -1,0 +1,917 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    background-color: rgb(227, 230, 230);
+}
+div{
+    display: inline-block;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: #010101;
+    width: 100vw;
+}
+.navlogo{
+    height: 55px;
+    width: 113px;
+    Margin: 0px 10px;
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+}
+.deliver{
+    width: 88.64px;
+    height: 40px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    width: 730px;
+    height: 40px;
+    border-radius: 4px;
+}
+.searchbar:hover{
+    border: 2px solid orange;
+}
+.searchselect{
+    background-color: #f3f3f3;
+    outline: none;
+    border-radius: 4px;
+}
+select{
+    height: 41px;
+}
+input{
+    height: 37px;
+    width: 650px;
+    border-left: 0px;
+    padding-left:0px;
+    margin-left: 0px;
+}
+.searchicon{
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+}
+.select2
+{
+    background-color: #0f1111;
+    color: white;
+    font-weight: bold;
+    border: #0f1111;
+}
+.cart{
+    width: 30px;
+    height: 30px;
+    background-image: url("icons8-cart-30.png");
+    background-size: cover;
+    margin: 0px 3px 0px 0px;
+    padding: 0px 9px 11px;
+}
+.carttext{
+    color: white;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 16.5px;
+    border-left: 20px;
+    border-top:20px;
+}
+.panel{
+    background-color: rgb(35, 47, 62);
+    width: 100vw;
+    height: 39px;
+    color: white;
+    display: flex;
+    align-items: center;
+     
+}
+.all{
+    width: 58.41px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.paneloptions {
+    display: flex;
+    width: 1300.59px;
+    font-size: 14px;
+}
+.electronics{
+    font-weight: bold;
+}
+/* Hero section */
+.herosection {
+    background-image: url("heronow.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 600px;
+}
+a{
+    color: rgb(12, 51, 83);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(102, 126, 146);
+}
+.msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 40px;
+    font-size: 14px;
+    background-color: white;
+    position: absolute;
+    top: 52%;
+    left: 0.5%;
+}
+.box1{
+    width: 341px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 61%;
+    left: 0.5%;
+    padding: 20px 0px 15px;
+}
+.b1head{
+    font-size: 21px;
+    width: 301px;
+    height: 27.3px;
+    font-weight: bold;
+    margin: 0px 0px 10px ;
+    padding: 0px 20px;
+}
+.box1pic1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b1p1.jpg");
+    background-size: cover;
+    width: 185.75px;
+    height: 115.85px;
+
+}
+.box1pic1text{
+    margin-top: 5px;
+    position: absolute;
+    top: 175px;
+    left: 5%;
+}
+.box1pic2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b1p2.jpg");
+    background-size: cover;
+    width: 185.75px;
+    height: 115.85px;
+    position: absolute;
+    left: 45%;
+    top: 13%;
+
+}
+.box1pic2text{
+    margin-top: 5px;
+    position: absolute;
+    top: 105px;
+    left: 15%;
+}
+.box1pic3{
+    background-image: url("b1p3.jpg");
+    background-size: cover;
+    width: 185.75px;
+    height: 115.85px;
+    position: absolute;
+    top: 140%;
+    right: 150px;
+
+}
+.box1pic3text{
+    margin-top: 5px;
+    position: absolute;
+    top: 88px;
+    left: 7%;
+}
+.box1pic4{
+    background-image: url("b1p4.jpg");
+    background-size: cover;
+    width: 185.75px;
+    height: 115.85px;
+    position: absolute;
+    top: 130%;
+    right: 0px;
+
+}
+.box1pic4text{
+    margin-top: 5px;
+    position: absolute;
+    top: 101px;
+    left: 13%;
+}
+#s1{
+position:absolute;
+top: 299px;
+right: 155%;
+}
+.box2{
+    width: 341px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 61%;
+    left: 25%;
+    padding: 20px 0px 15px;
+}
+.b2head{
+    font-size: 20px;
+    width: 301px;
+    height: 27.3px;
+    font-weight: bold;
+    margin: 0px 0px 10px ;
+    padding: 0px 20px;
+}
+.box2pic1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b2p1.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    left: 5px;
+
+}
+.box2pic1text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 5px;
+}
+.box2pic2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b2p2.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 58px;
+    left: 51%;
+    
+
+}
+.box2pic2text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box2pic3{
+    background-image: url("b2p3.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 168px;
+
+}
+.box2pic3text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box2pic4{
+    background-image: url("b2p4.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 0px;
+
+}
+.box2pic4text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2%;
+}
+#s2{
+    position:absolute;
+    top: 299px;
+    right: 183%;
+}
+.box3{
+    width: 341px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 61%;
+    left: 74%;
+    padding: 20px 0px 15px;
+}
+.b3head{
+    font-size: 20px;
+    width: 301px;
+    height: 27.3px;
+    font-weight: bold;
+    margin: 0px 0px 10px ;
+    padding: 0px 20px;
+}
+.box3pic1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b3p1.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    left: 5px;
+
+}
+.box3pic1text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 5px;
+}
+.box3pic2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b3p2.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 58px;
+    left: 51%;
+    
+
+}
+.box3pic2text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box3pic3{
+    background-image: url("b3p3.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 168px;
+
+}
+.box3pic3text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box3pic4{
+    background-image: url("b3p4.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 0px;
+
+}
+.box3pic4text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2%;
+}
+#s3{
+    position:absolute;
+    top: 299px;
+    right: 183%;
+}
+/* NOTE in notes!! */
+.box4{
+    width: 341px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 61%;
+    left: 49.5%;
+    padding: 20px 0px 15px;
+}
+.b4head{
+    font-size: 21px;
+    width: 301px;
+    height: 27.3px;
+    font-weight: bold;
+    margin: 0px 0px 10px ;
+    padding: 0px 20px;
+}
+.box4pic1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b4p1.jpg");
+    background-size: cover;
+    Width: 292.2px;
+    Height: 270.7px;
+    position: absolute;
+    left: 21px;
+}
+#s4{
+    position:absolute;
+    top: 299px;
+    left:2%;
+}
+.box5{
+    width: 341px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 128%;
+    left: 0.5%;
+    padding: 20px 0px 15px;
+}
+.b5head{
+    font-size: 20px;
+    width: 301px;
+    height: 27.3px;
+    font-weight: bold;
+    margin: 0px 0px 10px ;
+    padding: 0px 20px;
+}
+.box5pic1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b5p1.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    left: 5px;
+
+}
+.box5pic1text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 5px;
+}
+.box5pic2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b5p2.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 58px;
+    left: 51%;
+    
+
+}
+.box5pic2text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box5pic3{
+    background-image: url("b5p3.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 168px;
+
+}
+.box5pic3text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box5pic4{
+    background-image: url("b5p4.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 0px;
+
+}
+.box5pic4text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2%;
+}
+#s5{
+    position:absolute;
+    top: 299px;
+    right: 183%;
+}
+.box6{
+    width: 341px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 128%;
+    left: 25%;
+    padding: 20px 0px 15px;
+}
+.b6head{
+    font-size: 20px;
+    width: 301px;
+    height: 27.3px;
+    font-weight: bold;
+    margin: 0px 0px 10px ;
+    padding: 0px 20px;
+}
+.box6pic1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b6p1.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    left: 5px;
+
+}
+.box6pic1text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 5px;
+}
+.box6pic2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b6p2.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 58px;
+    left: 51%;
+    
+
+}
+.box6pic2text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box6pic3{
+    background-image: url("b6p3.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 168px;
+
+}
+.box6pic3text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box6pic4{
+    background-image: url("b6p4.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 0px;
+
+}
+.box6pic4text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2%;
+}
+#s6{
+    position:absolute;
+    top: 299px;
+    right: 183%;
+}
+.box7{
+    width: 341px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 128%;
+    left: 49.5%;
+    padding: 20px 0px 15px;
+}
+.b7head{
+    font-size: 20px;
+    width: 301px;
+    height: 27.3px;
+    font-weight: bold;
+    margin: 0px 0px 10px ;
+    padding: 0px 20px;
+}
+.box7pic1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b7p1.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    left: 5px;
+
+}
+.box7pic1text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 5px;
+}
+.box7pic2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b7p2.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 58px;
+    left: 51%;
+    
+
+}
+.box7pic2text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box7pic3{
+    background-image: url("b7p3.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 168px;
+
+}
+.box7pic3text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2px;
+}
+.box7pic4{
+    background-image: url("b7p4.jpg");
+    background-size: cover;
+    Width: 157.89px;
+    Height: 98.47px;
+    position: absolute;
+    top: 140%;
+    right: 0px;
+
+}
+.box7pic4text{
+    margin-top: 5px;
+    position: absolute;
+    top: 95px;
+    left: 2%;
+}
+#s7{
+    position:absolute;
+    top: 299px;
+    right: 183%;
+}
+.box8{
+    width: 341px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    top: 128%;
+    left: 74%;
+    padding: 20px 0px 15px;
+}
+.b8head{
+    font-size: 21px;
+    width: 301px;
+    height: 27.3px;
+    font-weight: bold;
+    margin: 0px 0px 10px ;
+    padding: 0px 20px;
+}
+.box8pic1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-image: url("b8p1.jpg");
+    background-size: cover;
+    Width: 292.2px;
+    Height: 270.7px;
+    position: absolute;
+    left: 21px;
+}
+#s8{
+    position:absolute;
+    top: 299px;
+    left:2%;
+}
+.f1
+{
+    background-color: white;
+    width: 100vw;
+    height: 197.2px;
+    position: absolute;
+    top: 195%;
+}
+.f1text1
+{
+    position: absolute;
+    top: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 35%;
+}
+.f1text2
+{
+    width: 200px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCE12;
+    border-radius: 25px;
+    position: absolute;
+    top: 34px;
+}
+.f1text2:hover {
+    background-color: rgb(234, 188, 21);
+}
+.f1text3{
+    font-size: 11px;
+    font-weight: 500;
+    position: absolute;
+    top: 66px;
+}
+.f2{
+    width: 100vw;
+    height: 22px;
+    background-color:#37475A ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    padding: 15px 0px 15px;
+    color: white;
+    position: absolute;
+    top: 220%;
+}
+.f3{
+    width: 100vw;
+    height: 372px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 227%;
+    
+}
+.f3text1
+{
+    width: 136.05px;
+    height: 291.6px;
+    color: white;
+    font-size: 14px;
+    padding: 0px 10px;
+    line-height: 1.85;
+}
+.f3text2
+{
+    width: 184.33px;
+    height: 291.6px;
+    color: white;
+    font-size: 14px;
+    padding: 0px 10px;
+    line-height: 1.85;
+}
+.f3text3
+{
+    width: 222.21px;
+    height: 291.6px;
+    color: white;
+    font-size: 14px;
+    padding: 0px 10px;
+    line-height: 1.85;
+}
+.f3text4
+{
+    width: 157.41px;
+    height: 291.6px;
+    color: white;
+    font-size: 14px;
+    padding: 0px 10px;
+    line-height: 1.85;
+}
+.f4{
+    width: 100vw;
+    height: 88px;
+    background-color: #232F3E;
+    position: absolute;
+    top: 275%;
+}
+.f41{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f41logo1{
+    width: 102px;
+    height: 38.2px;
+    background-image: url("amazonlogonow.png");
+}
+
+.f41logo2{
+    width: 116.56px;
+    height: 33.8px;
+    margin: 0px 4px 0px 0px;
+    padding: 6px 18px 6px 8px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f41logo2:hover {
+    border: 1px solid rgb(172, 171, 211);
+}
+.f41logo3{
+    width: 160.61px;
+    height: 34.6px;
+    margin: 0px 4px 0px 0px;
+    padding: 6px 18px 6px 8px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f41logo3:hover {
+    border: 1px solid rgb(172, 171, 211);
+}
+.f41logo4{
+    width: 140.99px;
+    height: 33.8px;
+    margin: 0px 4px 0px 0px;
+    padding: 6px 18px 6px 8px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f41logo4:hover {
+    border: 1px solid rgb(172, 171, 211);
+}
+
