@@ -23,7 +23,6 @@ This project replicates the core look and feel of Amazon’s homepage with inter
 ## 📸 Preview
 
 ![Amazon Clone Preview](preview.png)  
-*Note: Replace with actual screenshot or hosted link if available.*
 
 ---
 
@@ -31,4 +30,4 @@ This project replicates the core look and feel of Amazon’s homepage with inter
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/amazon-frontend-clone.git
+   git clone https://github.com/AnjaliBiju/Amazon_frontend_clone.git
